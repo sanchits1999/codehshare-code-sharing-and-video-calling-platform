@@ -21,7 +21,7 @@ const Room = (props) => {
 
 
     console.log(Peers)
-    const EXTPORT = "http://127.0.0.1:3001"
+    const EXTPORT = "https://code-share-backend.herokuapp.com"
 
     useEffect(() => {
         socketRef.current = io.connect(EXTPORT)
